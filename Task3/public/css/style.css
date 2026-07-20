@@ -1,0 +1,187 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f8f9fa;
+color:#333;
+}
+
+/* Navbar */
+
+.navbar{
+padding:15px 0;
+}
+
+.navbar-brand{
+font-size:26px;
+}
+
+.nav-link{
+margin-left:20px;
+transition:.3s;
+}
+
+.nav-link:hover{
+color:#0d6efd !important;
+}
+
+/* Hero */
+
+.hero{
+
+height:90vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+background:white;
+
+}
+
+.hero h1{
+
+font-size:65px;
+
+font-weight:bold;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+color:gray;
+
+margin-bottom:30px;
+
+}
+
+.hero .btn{
+
+padding:14px 35px;
+
+border-radius:50px;
+
+font-size:18px;
+
+}
+
+/* About */
+
+#about img{
+
+transition:.5s;
+
+}
+
+#about img:hover{
+
+transform:scale(1.05);
+
+}
+
+/* Services */
+
+.services{
+
+background:white;
+
+}
+
+.service-card{
+
+border:none;
+
+border-radius:15px;
+
+padding:20px;
+
+transition:.4s;
+
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.service-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 15px 30px rgba(0,0,0,.15);
+
+}
+
+.service-card h4{
+
+margin-bottom:15px;
+
+}
+
+/* Contact */
+
+.contact-form{
+
+max-width:650px;
+
+margin:auto;
+
+}
+
+.form-control{
+
+padding:14px;
+
+border-radius:10px;
+
+}
+
+textarea{
+
+resize:none;
+
+}
+
+/* Footer */
+
+footer{
+
+background:#212529;
+
+color:white;
+
+text-align:center;
+
+padding:20px;
+
+margin-top:50px;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+}
