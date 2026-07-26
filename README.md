@@ -53,6 +53,13 @@ cognifyz-fullstack-internship
 
 ---
 
+<<<<<<< HEAD
 👩‍💻 **Developed by Battinala Akshaya**
 
 *Completed as part of the Cognifyz Full Stack Development Internship.*
+=======
+👩‍💻 **Developed by Akshaya**
+
+*Completed as part of the Cognifyz Full Stack Development Internship.*
+Click on **Task1** or **Task2** to view the project files and their individual README.
+>>>>>>> 0c79f5ab16267a55b3a5343a324aa67f738d212a
