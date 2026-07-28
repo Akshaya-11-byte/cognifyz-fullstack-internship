@@ -1,28 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Task 5</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5 - User Management</title>
+
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
 <div class="container">
 
-    <h1>User Authentication</h1>
+    <h1>User Management System</h1>
 
-    <p>Welcome! Please register or login to continue.</p>
+    <form id="userForm">
 
-    <div class="btn-group">
-        <a href="/register">
-            <button>Register</button>
-        </a>
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter Name"
+            required
+        >
 
-        <a href="/login">
-            <button>Login</button>
-        </a>
-    </div>
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter Email"
+            required
+        >
+
+        <button type="submit">
+            Add User
+        </button>
+
+    </form>
+
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+
+        </thead>
+
+        <tbody id="userTable">
+
+        </tbody>
+
+    </table>
 
 </div>
+
+<script src="/js/script.js"></script>
 
 </body>
 </html>
