@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#4f46e5,#7c3aed,#9333ea);
+    overflow:hidden;
+}
+
+.container{
+    width:400px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(15px);
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+    border:1px solid rgba(255,255,255,.2);
+}
+
+h1{
+    color:white;
+    text-align:center;
+    margin-bottom:10px;
+    font-size:32px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#ececec;
+    margin-bottom:30px;
+    font-size:15px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+input{
+    margin-bottom:18px;
+    padding:14px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+input:focus{
+    box-shadow:0 0 8px white;
+}
+
+button{
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#ffffff;
+    color:#4f46e5;
+    font-size:17px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+    background:#f3f3f3;
+}
+
+p{
+    margin-top:20px;
+    color:white;
+    text-align:center;
+}
+
+a{
+    color:#fff;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+@media(max-width:500px){
+
+.container{
+    width:90%;
+    padding:30px;
+}
+
+h1{
+    font-size:26px;
+}
+
+}
+.button-group{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:25px;
+}
+
+.button-group a{
+    text-decoration:none;
+}
+
+.button-group button{
+    width:100%;
+}
+.logout-btn{
+    background:#ef4444 !important;
+    color:#ffffff !important;
+    border:none;
+    padding:14px 28px;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.logout-btn:hover{
+    background:#dc2626 !important;
+    transform:translateY(-3px);
+}
+.footer{
+    margin-top:30px;
+    text-align:center;
+    color:white;
+    font-size:14px;
+    opacity:0.9;
+}
